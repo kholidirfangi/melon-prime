@@ -44,12 +44,14 @@ export default function HeroSection() {
           bg-linear-to-br from-[#1f4d35] via-[#2d6a4f] to-[#1a3a2a]"
       >
         <Image
-          src="/mmt.jpg"
+          src="/melon.webp"
           fill
+          quality={100}
           sizes="(max-width: 1024px) 100vw, 50vw"
           alt="Greenhouse Melon Premium"
           className="object-cover object-center"
           priority
+          style={{ minHeight: "60vw" }}
         />
 
         {/* Fade bawah di mobile — menyatu dengan bg section */}
